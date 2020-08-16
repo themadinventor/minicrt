@@ -2779,4 +2779,78 @@ Wire Wire Line
 Connection ~ 3300 9150
 Wire Wire Line
 	3300 9150 3550 9150
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5FAAFBF3
+P 7250 10350
+F 0 "H1" H 7350 10353 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7350 10308 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7250 10350 50  0001 C CNN
+F 3 "~" H 7250 10350 50  0001 C CNN
+	1    7250 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5FAB0126
+P 7550 10350
+F 0 "H2" H 7650 10353 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7650 10308 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7550 10350 50  0001 C CNN
+F 3 "~" H 7550 10350 50  0001 C CNN
+	1    7550 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5FAD2138
+P 7850 10350
+F 0 "H3" H 7950 10353 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7950 10308 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7850 10350 50  0001 C CNN
+F 3 "~" H 7850 10350 50  0001 C CNN
+	1    7850 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5FAD2142
+P 8150 10350
+F 0 "H4" H 8250 10353 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8250 10308 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8150 10350 50  0001 C CNN
+F 3 "~" H 8150 10350 50  0001 C CNN
+	1    8150 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0153
+U 1 1 5FAF44EF
+P 7250 10550
+F 0 "#PWR0153" H 7250 10300 50  0001 C CNN
+F 1 "GND" H 7255 10377 50  0000 C CNN
+F 2 "" H 7250 10550 50  0001 C CNN
+F 3 "" H 7250 10550 50  0001 C CNN
+	1    7250 10550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 10550 7250 10500
+Wire Wire Line
+	7250 10500 7550 10500
+Wire Wire Line
+	8150 10500 8150 10450
+Connection ~ 7250 10500
+Wire Wire Line
+	7250 10500 7250 10450
+Wire Wire Line
+	7850 10500 7850 10450
+Connection ~ 7850 10500
+Wire Wire Line
+	7850 10500 8150 10500
+Wire Wire Line
+	7550 10500 7550 10450
+Connection ~ 7550 10500
+Wire Wire Line
+	7550 10500 7850 10500
 $EndSCHEMATC
